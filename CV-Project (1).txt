@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: #E4F9F5;
+                font-family: 'Roboto', sans-serif;
+                
+            }
+
+            h1,h2,h3,h4,h5{
+                color: #11999E;
+                margin: 0 auto;
+            }
+
+            a{
+                text-decoration: none;
+                color: teal;
+                font-weight: bold;
+            }
+
+            p{
+              margin: 0 auto;
+              line-height: 1.5rem;
+            }
+
+            #container{
+                max-width: 100000px;
+                background-color: #E4F9F5;
+                margin: 0 auto;
+                padding: 5px;
+            }
+
+
+
+           /* header style starts here */
+
+           
+
+            .header-bio{
+                margin-top: 15px;
+                float: center;
+                padding: 0 20px;
+                
+            }
+            .header-contact{
+                float: right;
+                color: #11999E;
+                
+            }
+            .header-contact a{
+                text-decoration: none;
+                color: teal;
+                font-weight: bold;
+            }
+
+           
+
+              /* header style ends here */
+
+            .clear-div{
+                clear: both;
+            }
+
+            hr{
+                border: 3px solid black;
+                width: 100%;
+                margin: 20px auto;
+                border-bottom: none;
+            }
+
+            .left-div{
+                float: left;
+                width: 30%;
+            }
+
+            .right-div{
+                float: left;
+                width: 70%;
+            }
+
+          
+
+            .common-hr{
+                border: solid black 1px;
+                border-bottom: none;
+                width: 100%;
+                margin: 20px auto;
+            }
+
+            .edu-template-left{
+                float: left;
+                width: 50%;
+            }
+            .edu-template-right{
+                float: right;
+                width: 50%;
+            }
+
+            .bottom-container{
+                background-color: black;
+                text-align: center;
+                padding: 30px;
+
+            }
+            .bottom-container a{
+                color: white;
+                text-decoration: none;
+                margin: 20px;
+            }
+
+            
+
+
+
+    </style>
+</head>
+<body>
+
+     
+    
+    <div id="container">
+
+        
+        <header> 
+          
+
+            <div class="header-bio">
+                <h1>Uzaer Hossain</h1>
+                <h3>Programmer & Student</h3><br>
+            </div>
+
+           <div class="header-contact">
+                <p> E - mail : <a href="mailto:uzaerhossain10@gmail.com" target="blank"></a>uzaerhossain10@gmail.com</p>
+                
+           </div>
+
+        </header>
+        
+
+        <div class="clear-div"></div>
+        <hr>
+     
+
+       
+        <main>
+    
+            
+            <section>
+                <div class="content">
+                    <div class="left-div">
+                        <h3>PERSONAL INFORMATION</h3>
+                    </div>
+                    <div class="right-div">
+                        <p>
+                            Address : Najir Road, Feni,Bangladesh<br>
+                            Gender: Male <br>
+                            Date of Birth: 10/12/2008 <br>
+                            Nationality: Bangladeshi
+                        
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+
+
+
+
+            <div class="clear-div"></div>
+            <hr class="common-hr">
+
+
+            
+            <section>
+                <div class="content">
+                    <div class="left-div">
+                        <h3>EDUCATION</h3>
+                    </div>
+                    <div class="right-div">
+                      
+                        <div>
+                            <h3>PSC </h3>
+                            <h5>2020</h5>
+                            Feni Ispahani School <br>
+                            Feni,Bangladesh<br><br>
+                            
+                           
+                        </div>
+                        <div>
+                            <h3>Present School</h3>
+                            <h5>Class : 8</h5>
+                            Feni Central High School <br>
+                            Feni,Bangladesh<br>
+                            
+                           
+                        </div>
+                        </div>
+                        
+
+                        
+
+                       
+
+                        <div class="clear-div"></div>
+
+                        
+
+                    </div>  
+                </div>
+            </section>
+            
+
+
+                </div>
+            </section>
+
+           
+
+            <div class="clear-div"></div>
+            <hr class="common-hr">
+
+
+           
+            <section>
+                <div class="content">
+                    <div class="left-div">
+                        <h3>SKILLS 
+                        AND KNOWLEDGE</h3>
+                    </div>
+                    <div class="right-div">
+                       
+                        <ul>
+                        <li>Good figure in Programming Languages and Version Control System</li>
+                            
+                            <ul>
+                            <li type="square">C</li>
+                            <li type="square">C++</li>
+                       <li type="square">
+                       Java</li>
+                            <li type="square">Python</li> 
+                            <li type="square">Git and Github</li>
+                            
+                            </ul> <br>
+                            <li>Few knowledege in web devolopment.</li>
+                            
+                             <ul>
+                             <li type="square">HTML</li>
+                             <li type="square">CSS</li><br>
+                             </ul>
+                            <li>Also knowledge on: </li>
+                            <ul>
+                            <li type="square">video editing</li>
+                            <li type="square">digital awareness</li>
+                            <li type="square">content researching</li>
+                            </ul>
+                            
+                        </ul>                      
+                        
+                    </div>
+                </div>
+            </section>
+
+            
+
+            
+            </section>
+
+            
+            <div class="clear-div"></div>
+            <hr class="common-hr">
+
+
+
+        </main>
+        <!-- header end  -->
+    
+
+        <div class="clear-div"></div>
+           
+
+        <!-- footer start  -->
+       <footer class="bottom-container">
+    
+            <a href="#container">Home</a>
+          
+             <a href=" https://facebook.com/uzaerhossain.programmer" target="blank">Facebook</a>  
+            <a href=" https://github.com/uzaer-hossain" target="blank">GitHub</a>           
+            
+    
+        </footer>
+        <!-- footer end  -->
+
+
+    </div>                 
+    
+</body>
+</html>>  
+</body>
+</html>>
